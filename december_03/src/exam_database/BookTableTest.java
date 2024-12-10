@@ -44,9 +44,8 @@ public class BookTableTest {
 			}
 		}
 	}
-	
-	
 	private static void addBook() {
+		
 		int price;
 		String title, publisher, year;
 		
@@ -78,9 +77,10 @@ public class BookTableTest {
 		catch(Exception e) {
 			System.err.println("[쿼리문 ERROR \n]" + e.getMessage());
 			e.printStackTrace();
+	
 		}
 	}
-	
+		
 	
 	private static void readbook() {
 		
